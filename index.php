@@ -9,16 +9,20 @@
 <?php
 
     $name = 'Nabil';
-    $age = '21';
+    $age = 21;
     $isMale = true;
     $height = 1.5;
     $salary = null;
+    $cost = '255.12';
 
     echo $name . '<br>';
     echo gettype($isMale). '<br>';
 
     var_dump($name, $age, $isMale, $height, $salary );
-
+    echo '<br>';
+    $myNum = intval($cost);
+    var_dump($myNum);
+    echo '<br>';
 
 ?>
     
